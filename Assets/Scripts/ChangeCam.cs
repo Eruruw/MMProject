@@ -7,7 +7,6 @@ public class ChangeCam : MonoBehaviour
 {
     public FadeToBlack fade;
     public GameObject cam;
-    public bool end;
     private bool pressed;
 
     void Update()
@@ -18,10 +17,6 @@ public class ChangeCam : MonoBehaviour
             fade.StartFade();
             ChangeActiveCam();
         }
-        else if (Input.GetKeyDown(KeyCode.Space) && end)
-        {
-            Application.Quit();
-        }
     }
 
     public async void ChangeActiveCam()
@@ -30,6 +25,5 @@ public class ChangeCam : MonoBehaviour
         gameObject.SetActive(false);
         cam.SetActive(true);
         fade.StopFade();
-        end = true;
     }
 }
