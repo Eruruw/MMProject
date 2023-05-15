@@ -4,5 +4,26 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Day1.unity
+    guid: 7cf0ee925a13b9640b6bced4fc1dc992
+  - enabled: 1
+    path: Assets/Scenes/CaveDay1.unity
+    guid: a302e1d76ec34cf4cb4418887fb51533
+  - enabled: 1
+    path: Assets/Scenes/Day1FromCave.unity
+    guid: 8b128e8287e710548bb862ddba7433df
+  - enabled: 1
+    path: Assets/Scenes/Day2.unity
+    guid: 373b64ae2c3a05341a730b547f0a30b8
+  - enabled: 1
+    path: Assets/Scenes/CaveDay2.unity
+    guid: 898616d5fbbc22a41a7d37187bfc27c1
+  - enabled: 1
+    path: Assets/Scenes/Day2FromCave.unity
+    guid: c29db8ec251720f4dac4845979f1dfb7
+  - enabled: 1
+    path: Assets/Scenes/Day3.unity
+    guid: 77617af98c348b943b3ab07a7147854a
   m_configObjects: {}
